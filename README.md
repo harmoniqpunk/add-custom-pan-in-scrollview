@@ -1,9 +1,7 @@
 Created by George Poenaru
 Contact: george.poenaru@me.com
-add-custom-pan-in-scrollview
+Additional Custom Vertical/Horizontal Pan Gestures in UIScrollView (iOS)
 ============================
-
-Additional Custom Pan Gestures in UIScrollView (iOS)
 
 A short code example for adding new Pan Gestures custom method in UIScrollView without removing the superclass pan gestures recognizer.
 It also shows you how to isolate the Vertical or Horizonatal Pan Gesture. 
