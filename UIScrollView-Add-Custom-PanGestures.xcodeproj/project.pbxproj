@@ -19,6 +19,7 @@
 		5EE8B6FD1705BD8A0033CE83 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8B6FB1705BD8A0033CE83 /* MainStoryboard_iPhone.storyboard */; };
 		5EE8B7001705BD8A0033CE83 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE8B6FE1705BD8A0033CE83 /* MainStoryboard_iPad.storyboard */; };
 		5EE8B7031705BD8A0033CE83 /* CSPGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B7021705BD8A0033CE83 /* CSPGViewController.m */; };
+		5EE8B70B1705BDCF0033CE83 /* CSPGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8B70A1705BDCF0033CE83 /* CSPGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		5EE8B6FF1705BD8A0033CE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5EE8B7011705BD8A0033CE83 /* CSPGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSPGViewController.h; sourceTree = "<group>"; };
 		5EE8B7021705BD8A0033CE83 /* CSPGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSPGViewController.m; sourceTree = "<group>"; };
+		5EE8B7091705BDCF0033CE83 /* CSPGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPGScrollView.h; sourceTree = "<group>"; };
+		5EE8B70A1705BDCF0033CE83 /* CSPGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPGScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				5EE8B6FE1705BD8A0033CE83 /* MainStoryboard_iPad.storyboard */,
 				5EE8B7011705BD8A0033CE83 /* CSPGViewController.h */,
 				5EE8B7021705BD8A0033CE83 /* CSPGViewController.m */,
+				5EE8B7091705BDCF0033CE83 /* CSPGScrollView.h */,
+				5EE8B70A1705BDCF0033CE83 /* CSPGScrollView.m */,
 				5EE8B6EA1705BD8A0033CE83 /* Supporting Files */,
 			);
 			path = "UIScrollView-Add-Custom-PanGestures";
@@ -181,6 +186,7 @@
 				5EE8B6F01705BD8A0033CE83 /* main.m in Sources */,
 				5EE8B6F41705BD8A0033CE83 /* CSPGAppDelegate.m in Sources */,
 				5EE8B7031705BD8A0033CE83 /* CSPGViewController.m in Sources */,
+				5EE8B70B1705BDCF0033CE83 /* CSPGScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIScrollView-Add-Custom-PanGestures/UIScrollView-Add-Custom-PanGestures-Prefix.pch";
 				INFOPLIST_FILE = "UIScrollView-Add-Custom-PanGestures/UIScrollView-Add-Custom-PanGestures-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +296,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIScrollView-Add-Custom-PanGestures/UIScrollView-Add-Custom-PanGestures-Prefix.pch";
 				INFOPLIST_FILE = "UIScrollView-Add-Custom-PanGestures/UIScrollView-Add-Custom-PanGestures-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

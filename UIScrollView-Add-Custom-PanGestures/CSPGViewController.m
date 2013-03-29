@@ -7,6 +7,7 @@
 //
 
 #import "CSPGViewController.h"
+#import "CSPGScrollView.h"
 
 @interface CSPGViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   CSPGScrollView  *customScrollView = [[CSPGScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,
+                                                                       self.view.frame.size.height)];
+    
+    [self.view addSubview:customScrollView];
+    
 }
 
 - (void)didReceiveMemoryWarning
