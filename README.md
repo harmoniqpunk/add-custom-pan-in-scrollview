@@ -1,5 +1,4 @@
 Created by George Poenaru
-Contact: george.poenaru@me.com
 Additional Custom Vertical/Horizontal Pan Gestures in UIScrollView (iOS)
 ============================
 
